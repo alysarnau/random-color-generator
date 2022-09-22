@@ -8,13 +8,17 @@
     <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous" ></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="body">
     <div class="container">
+        <h1>Generate a random color!</h1>
+        <hr />
         <div class="hex-container">
-            <h1 id="hex-display"></h1>
+            <input type="text" value="" id="hex-display">
+            <!-- //<h1 id="hex-display"></h1> -->
         </div>
         <div class="generate-button">
             <button id="generate">Generate!</button>
+            <button id="copy-to-clipboard">Copy to Clipboard</button>
         </div>
     </div>
 
