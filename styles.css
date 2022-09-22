@@ -35,14 +35,51 @@ img {
 }
 
 .container {
-    max-width: 300px;
+    max-width: 500px;
     margin: 50px auto;
     padding: 20px 20px;
     border-radius: 25px;
-    background-color: oldlace;
+    background-color: var(--dark-grey);
     text-align: center;
 }
 
 hr {
     margin: 10px 0px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+  }
+
+input {
+    max-width: 100px;
+    text-align: center
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: var(--color-sec);
+    color: var(--white);
 }
